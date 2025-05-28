@@ -2,6 +2,8 @@
 
 Um simples simulador de piano utilizando HTML, CSS e JavaScript.
 
+Experimente e pratique os seus dons musicais: [https://lgjor.github.io/piano/](https://lgjor.github.io/piano/)
+
 ## Features
 
 - Interactive piano keys
