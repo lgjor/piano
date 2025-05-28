@@ -7,14 +7,13 @@ body {
     color: #fff;
 }
 
-.container {
-    width: 780px;
-    border-radius: 20px;
-    padding: 35px 40px;
+.container-lg {
+    border-radius: 20px;;
     background-color: #000000;
+    padding: 40px 35px;
 }
 
-.container header {
+.container-lg header {
     color: #b2b2b2;
     display: flex;
     justify-content: space-between;
@@ -122,4 +121,70 @@ header .column span {
 
 .piano-keys .key.hide span{
     display: none;
+}
+
+.debugger {
+    border: 1px solid red;
+}
+
+
+@media (max-width: 700px) {
+  header h2 {
+    font-size: 1.2rem;
+  }
+  header .column span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+  .piano-keys {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .piano-keys .white {
+    width: 50px;
+    height: 180px;
+  }
+
+  .piano-keys .black {
+    width: 30px;
+    height: 100px;
+    margin: 0 -15px 0 -15px;
+  }
+}
+
+/* Estilos existentes */
+
+@media (max-width: 530px) {
+  header h2 {
+    font-size: 1rem; 
+  }
+
+  header .column span {
+    display: none;;
+    }
+
+  .piano-keys {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .piano-keys .white {
+    width: 40px; /* Reduz ainda mais a largura das teclas brancas */
+    height: 150px; /* Reduz ainda mais a altura das teclas brancas */
+  }
+
+  .piano-keys .black {
+    width: 25px; /* Reduz ainda mais a largura das teclas pretas */
+    height: 80px; /* Reduz ainda mais a altura das teclas pretas */
+    margin: 0 -12.5px 0 -12.5px; /* Ajusta a margem das teclas pretas */
+  }
+
+  .piano-keys span {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte das letras nas teclas */
+    bottom: 10px; /* Ajusta a posição das letras nas teclas */
+  }
 }
