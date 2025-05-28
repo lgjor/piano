@@ -2,6 +2,8 @@
 
 Um simples simulador de piano utilizando HTML, CSS e JavaScript.
 
+Adicionado bootstrap e media queries para tornar o layout responsivo a telas menores.
+
 Experimente e pratique os seus dons musicais: [https://lgjor.github.io/piano/](https://lgjor.github.io/piano/)
 
 ## Features
