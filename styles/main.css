@@ -14,6 +14,14 @@ body {
     background-color: #000000;
 }
 
+.container header {
+    color: #b2b2b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 header h2 {
     font-size: 1.6rem;
 }
@@ -58,7 +66,7 @@ header .column span {
 
 .keys-check input:checked::before{
     left: 2.1rem;
-    background-color: #8c8c8c;
+    background-color: #FFF;
 
 }
 
