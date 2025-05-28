@@ -1,6 +1,6 @@
 # Virtual Piano Simulator
 
-A simple virtual piano simulator built with HTML, CSS, and JavaScript.
+Um simples simulador de piano utilizando HTML, CSS e JavaScript.
 
 ## Features
 
@@ -9,7 +9,7 @@ A simple virtual piano simulator built with HTML, CSS, and JavaScript.
 - Volume control
 - Toggle key labels
 
-## Technologies Used
+## Tecnologias
 
 - HTML
 - CSS
@@ -24,8 +24,3 @@ A simple virtual piano simulator built with HTML, CSS, and JavaScript.
     ```
 
 2. Open `index.html` in your browser.
-
-
-## License
-
-[Choose a license, e.g., MIT License]
