@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Styles -->
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="src/styles/index.css">
     <title>Piano Simulator</title>
 </head>
 <body>
@@ -22,25 +22,25 @@
             </div>
         </header>
         <ul class="piano-keys">
-            <li class="key white">a<span></span></li>
-            <li class="key black">w<span></span></li>
-            <li class="key white">s<span></span></li>
-            <li class="key black">e<span></span></li>
-            <li class="key white">d<span></span></li>
-            <li class="key black">f<span></span></li>
-            <li class="key white">t<span></span></li>
-            <li class="key black">g<span></span></li>
-            <li class="key white">y<span></span></li>
-            <li class="key black">h<span></span></li>
-            <li class="key white">u<span></span></li>
-            <li class="key black">j<span></span></li>
-            <li class="key white">k<span></span></li>
-            <li class="key black">o<span></span></li>
-            <li class="key white">l<span></span></li>
-            <li class="key black">p<span></span></li>
-            <li class="key white">;<span></span></li>
+            <li class="key white" data-key="a"><span>a</span></li>
+            <li class="key black" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key black" data-key="r"><span>r</span></li>
+            <li class="key white" data-key="f"><span>f</span></li>
+            <li class="key black" data-key="t"><span>t</span></li>
+            <li class="key white" data-key="g"><span>g</span></li>
+            <li class="key black" data-key="y"><span>y</span></li>
+            <li class="key white" data-key="h"><span>h</span></li>
+            <li class="key black" data-key="u"><span>u</span></li>
+            <li class="key white" data-key="j"><span>j</span></li>
+            <li class="key black" data-key="i"><span>i</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black" data-key="o"><span>o</span></li>
+            <li class="key white" data-key=";"><span>;</span></li>
         </ul>
     </div>
-    <script src="scripts/engine.js" defer></script>
+    <script src="/src/script/engine.js" defer></script>
 </body>
 </html>
